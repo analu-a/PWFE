@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+.container{
+    width: 100vw;
+    flex-direction: column;
+    align-items: center;
+    padding-block: 16px;
+    display: flex;
+    gap: 16px;
+
+}
+
+.item{
+    height: 100px;
+    width: 80%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 32px;
+   
+}
+
+.texto{
+    color: white;
+    font-size: 64px;
+}
+
+.forma{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(179, 92, 250);
+    transition: 0.5s;
+    cursor: pointer;
+    
+}
+
+.amarelo{
+    background-color: rgb(255, 57, 179);
+}
+
+.circulo{
+    border-radius: 50%;
+}
+
+.rodar{
+    rotate: 360deg;
+}
+
+.meioCima{
+    border-top-left-radius: 80%;
+    border-top-right-radius: 80%;
+    height: 40px;
+}
+
+.estrela{
+    background-image: url(./img/estrela.png) ;
+    background-color: black;
+}
+
+.lado{
+    transform: translate(-500px);
+}
+
+
+.sumir{
+    background-color: transparent;
+}
+
