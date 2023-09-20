@@ -25,9 +25,3 @@ async function preencherCampos(){
 }
 
 cepInput.addEventListener('focusout', preencherCampos)
-
-
-
-
-
-
