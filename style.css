@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-color: rgb(233, 207, 169);
+}
+
+header{
+    height: 10vh;
+    padding: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(223, 182, 122);
+}
+
+header h1{
+    color: white;
+    font-size: 50px;
+    font-family: 'Playpen Sans', cursive;
+}
+
+main{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Playpen Sans', cursive;
+}
+
+.tabela{
+    width: 60%;
+    height: 60%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+}
+
+.tabela:-webkit-scrollbar{
+    width: 3px;
+    height: 7px;
+    
+}
+
+.tabela::-webkit-scrollbar-thumb{
+    background-color: pink;
+}
+
+table{
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    background-color: rgb(172, 137, 97);
+    font-weight: bolder;
+}
+
+a, table{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    text-decoration: underline rgb(255, 176, 124);
+}
+
+table, tr, td{
+    border: 1px solid rgb(255, 229, 159);
+}
+
+tr, td{
+    padding: 4px;
+    font-size: 1.5rem;
+}
+
+thead th{
+    padding: 2px;
+    font-size: 2rem;
+    background-color:  rgb(255, 229, 159);
+    color: rgb(102, 61, 22);
+}
+
+thead th:nth-child(1){
+    width: 60%;
+}
